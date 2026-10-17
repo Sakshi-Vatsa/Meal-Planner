@@ -1,18 +1,24 @@
-# Meal Planner — Explore Meals
+# Meal Planner — complete historical meal catalogue
 
-Static GitHub Pages website. Upload `index.html` to the root of your `Meal-Planner` repository, replacing the existing file.
+A static GitHub Pages website containing every distinct meal-and-portion entry extracted from the 49 matched diet-plan emails (2024–2026).
+
+## Deploy
+
+1. Replace the root `index.html` file in `Sakshi-Vatsa/Meal-Planner` with the one in this package.
+2. Commit changes to `main`.
+3. GitHub Pages → Deploy from branch `main`, folder `/ (root)`.
+
+The website runs entirely in the browser with no API keys, tracking, or build dependencies.
 
 ## Included
-- Searchable meal options with time-of-day filters
-- Exact source portions and alternatives where supplied
-- Recipe video links from the original emails
-- Links to the relevant Gmail source for verification (only work for someone signed into the relevant mailbox)
-- Deduplication by category, meal name and exact portion/instructions
 
-## Coverage warning
-This build contains five fully reviewed June/May 2026 weekly menus and Monday meal sets from another twelve source emails. It does **not** yet cover every meal on every day of every 2024–2026 plan. That will require processing the remaining messages and checking variations across weekdays.
+- `index.html`: fully browsable searchable meal library with recipe links
+- `data/all-meals.json`: structured database, including original email IDs
+- `data/all-meals.csv`: import-friendly meal table
+- `coverage-report.json`: coverage validation across every source email
 
-## Privacy
-The website is public on GitHub Pages. No recipient name, email address or weight tracking is displayed. The source Gmail links contain message IDs but require mailbox access.
+Each original source's daily cells are deduplicated by exact category and normalized full meal instructions. Different portion sizes are **not** merged. The original source email IDs are preserved.
 
-This is a historical archive, not medical advice or a current prescription.
+## Important
+
+This is a historical meal catalogue, not current dietary guidance. Some emailed video links may be outdated, and video matching is best-effort; the full original recipe references remain in `data/all-meals.json`.

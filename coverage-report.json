@@ -1,0 +1,32 @@
+{
+  "emails": 49,
+  "day_rows": 335,
+  "source_meal_cells": 2345,
+  "unique_meal_portion_options": 481,
+  "unique_recipe_url_count": 132,
+  "matched_meal_options": 404,
+  "coverage": {
+    "2024": {
+      "messages": 15,
+      "days": 101,
+      "slots_expected": 707,
+      "unique_per_year": 167,
+      "recipe_references": 93
+    },
+    "2025": {
+      "messages": 23,
+      "days": 161,
+      "slots_expected": 1127,
+      "unique_per_year": 245,
+      "recipe_references": 119
+    },
+    "2026": {
+      "messages": 11,
+      "days": 73,
+      "slots_expected": 511,
+      "unique_per_year": 98,
+      "recipe_references": 62
+    }
+  },
+  "unmatched_recipe_meals": 77
+}
