@@ -1,23 +1,18 @@
-# Meal Archive — GitHub Pages
+# Meal Planner — Explore Meals
 
-A static, privacy-conscious starter website using five historical weekly diet plans (25 May–28 June 2026) provided in Dr. Shikha Singh's emails.
+Static GitHub Pages website. Upload `index.html` to the root of your `Meal-Planner` repository, replacing the existing file.
 
-## Deploy
-1. Create a **public** GitHub repository, e.g. `meal-archive`.
-2. Upload `index.html` to the repository root (or push the contents of this folder).
-3. In repository **Settings → Pages**, set **Build and deployment → Deploy from a branch**, branch `main`, folder `/ (root)`; save.
-4. Open `https://YOUR_USERNAME.github.io/meal-archive/` once deployment completes.
+## Included
+- Searchable meal options with time-of-day filters
+- Exact source portions and alternatives where supplied
+- Recipe video links from the original emails
+- Links to the relevant Gmail source for verification (only work for someone signed into the relevant mailbox)
+- Deduplication by category, meal name and exact portion/instructions
 
-GitHub Pages is publicly visible. This starter website intentionally excludes identifiable health data. Only publish meal information you are comfortable making public.
+## Coverage warning
+This build contains five fully reviewed June/May 2026 weekly menus and Monday meal sets from another twelve source emails. It does **not** yet cover every meal on every day of every 2024–2026 plan. That will require processing the remaining messages and checking variations across weekdays.
 
-## What it includes
-- Browse meal options by category and search by dish or ingredient.
-- Switch between historical weekly plans and weekdays, with original portions and alternatives.
-- Links to original Gmail source emails (which only work for the signed-in account with access).
-- Recipe-video index using the links included in source emails.
+## Privacy
+The website is public on GitHub Pages. No recipient name, email address or weight tracking is displayed. The source Gmail links contain message IDs but require mailbox access.
 
-## Scope and data quality
-- Contains **five** example historical plans, **not all 61 emails**.
-- The 15–21 June 2026 hummus sandwich quantities look unusual in the original email and are flagged, not silently corrected.
-- The weekly plans here repeat the same menu daily as in the messages reviewed. The dated archive is not a recommended current diet.
-- This is a static site without login, tracking, or email syncing. Additional plans must be deliberately added to the data array in `index.html`.
+This is a historical archive, not medical advice or a current prescription.
