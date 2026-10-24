@@ -1,7 +1,7 @@
 {
-  "name": "Meal Planner",
-  "short_name": "Meal Planner",
-  "description": "Explore historical meal ideas with their original quantities and recipe links.",
+  "name": "Dr. Shikha Meal Planner",
+  "short_name": "Shikha Meals",
+  "description": "Browse historical Dr. Shikha meal recommendations, original portions, and public recipe videos.",
   "id": "./",
   "start_url": "./",
   "scope": "./",
